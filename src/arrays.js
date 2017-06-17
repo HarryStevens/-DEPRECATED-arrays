@@ -1,9 +1,15 @@
 window.arrays = (function () {
 
   function o(){
+    this.is = is;
     this.random = random;
     this.shuffle = shuffle;
     this.sortNumbers = sortNumbers;
+  }
+
+  // Test whether an element is an array
+  function is(arr){
+    return typeof(arr) == "object" && arr.length >= 0;
   }
 
   // Returns an item at random from an array

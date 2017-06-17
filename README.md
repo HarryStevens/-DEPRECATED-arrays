@@ -6,6 +6,10 @@ To use this library, download `arrays.js` or `arrays.min.js` from the `src` dire
 
 ## API Reference
 
+<a name="is" href="#is">#</a> arrays.<b>is</b>(<i>array</i>)
+
+Tests whether an element is an array. Returns *true* or *false*.
+
 <a name="random" href="#random">#</a> arrays.<b>random</b>(<i>array</i>)
 
 Returns a random item from an array.

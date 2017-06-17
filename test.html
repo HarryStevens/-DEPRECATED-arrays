@@ -2,9 +2,18 @@
 <script>
 var arr = [1,2,3,4,5,6,7,8,9,10];
 
+console.log(arrays.is([])); // true
+console.log(arrays.is(["1", "2"])); // true
+console.log(arrays.is(arr)); // true
+console.log(arrays.is("a")); // false
+console.log(arrays.is(1)); // false
+console.log(arrays.is(true)); // false
+console.log(arrays.is({"name": "bob"})); // false
+console.log(arrays.is(function(d){ return d; })); // false
+
 console.log(arrays.random(arr));
 
-var shuffled = arrays.shuffle(arr)
+var shuffled = arrays.shuffle(arr);
 console.log(shuffled);
 
 console.log(arrays.sortNumbers(shuffled));
