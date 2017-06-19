@@ -16,19 +16,23 @@ Functions for doing math with arrays of numbers.
 
 <a name="average" href="#average">#</a> arrays.<b>average</b>(<i>array</i>)
 
-Returns the average value of an array of numbers.
+Returns the average of an array of numbers.
 
 <a name="extent" href="#extent">#</a> arrays.<b>extent</b>(<i>array</i>)
 
-Returns ths minimum and maximum values of an array of numbers as the array [min, max].
+Returns the minimum and maximum values of an array of numbers as the array [min, max].
 
 <a name="max" href="#max">#</a> arrays.<b>max</b>(<i>array</i>)
 
-Returns ths maximum value of an array of numbers.
+Returns the maximum value of an array of numbers.
+
+<a name="median" href="#median">#</a> arrays.<b>median</b>(<i>array</i>)
+
+Returns the median of an array of numbers.
 
 <a name="min" href="#min">#</a> arrays.<b>min</b>(<i>array</i>)
 
-Returns ths minimum value of an array of numbers.
+Returns the minimum value of an array of numbers.
 
 <a name="sum" href="#sum">#</a> arrays.<b>sum</b>(<i>array</i>)
 

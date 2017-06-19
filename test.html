@@ -15,6 +15,10 @@ console.log(arrays.is(true)); // false
 console.log(arrays.is({"name": "bob"})); // false
 console.log(arrays.is(function(d){ return d; })); // false
 
+console.log(arrays.median([1,10,7])); // 7
+console.log(arrays.median([1,10,7,5])); // 6
+console.log(arrays.median([1,6,3,9,28])) // 6
+
 console.log(arrays.random(arr));
 
 var shuffled = arrays.shuffle(arr);

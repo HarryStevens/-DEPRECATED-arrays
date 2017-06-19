@@ -5,6 +5,7 @@ window.arrays = (function () {
     this.extent = extent;
     this.is = is;
     this.max = max;
+    this.median = median;
     this.min = min;
     this.random = random;
     this.shuffle = shuffle;
@@ -30,6 +31,13 @@ window.arrays = (function () {
   // Returns the maximum value of an array.
   function max(arr){
     return sortNumbers(arr)[arr.length - 1];
+  }
+
+  // Returns the medium value of an array of numbers.
+  function median(arr){
+    arr = sortNumbers(arr);
+    var i = arr.length / 2;
+    return i % 1 === 0 ? (arr[i - 1] + arr[i]) / 2 : arr[Math.floor(i)];
   }
 
   // Returns the minimum value of an array.
