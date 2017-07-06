@@ -1,3 +1,5 @@
+This project is deprecated. Please use [jsz](https://github.com/harrystevens/jsz) instead.
+
 # arrays.js
 
 arrays.js is a Javascript library for manipulating arrays. Javascript has many [built-in methods for manipulating arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). The functions in this library are meant to supplement those.
